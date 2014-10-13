@@ -1,0 +1,21 @@
+{
+  "name": "lighthouse",
+  "version": "0.0.1",
+  "homepage": "https://lighthouse.github.io/",
+  "authors": [
+    "Nick Miller <ngmiller@iastate.edu>"
+  ],
+  "description": "Project for senior design at Iowa State University",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.2.0",
+    "jquery": "~2.1.1"
+  }
+}
