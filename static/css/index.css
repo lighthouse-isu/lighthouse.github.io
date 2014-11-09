@@ -1,14 +1,36 @@
 body {
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-top: 0px;
 }
 
 /* navbar */
 .navbar {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 /* docs */
 .panel-body p {
     margin-bottom: 0px;
 }
+
+/* skinny container */
+@media (min-width: 768px) {
+    .container {
+      max-width: 830px;
+    }
+}
+
+/* cool homepage stuff */
+.parallax-bg {
+    background: url(/static/img/670332.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.jumbotron {
+    background-color: rgba(238, 238, 238, 0.80);
+    margin-top: 20px;
+}
+

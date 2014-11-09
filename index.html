@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/static/img/favicon.ico">
 
     <title>Lighthouse</title>
 
@@ -17,37 +18,58 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
+    <a class="hidden-xs" href="https://github.com/lighthouse"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 100;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">Lighthouse</a>
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/docs/">Documentation</a></li>
+            <li><a href="/team/">Team</a></li>
+            <li class="visible-xs"><a href="https://github.com/lighthouse">Fork Me on GitHub</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </div>
 
-    <div class="container">
-      <div class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="/">Lighthouse</a>
+    <div class="parallax-bg">
+        <div class="container">
+          <div class="jumbotron">
+            <h1>Lighthouse</h1>
+            <em><strong>noun</strong> /ˈlītˌhous/</em>
+            <p>A tower, with a powerful light, that is used as a navigational aid for <del>maritime pilots</del> <strong>Docker containers</strong> at sea or on inland waterways.</p>
+        </div>
+      </div>
+    </div>
+    <div class="main container">
+      <div class="container-fluid" style="margin-top:20px;">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>What</h2>
+            <p>Lighthouse is a Docker controller. It aggregates information about Docker instances arcoss mulitple cloud providers and allows for easy control over the containers deployed on that system. We're aiming to provide a service that is intuitive, fast, and secure.</p>
           </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="/">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="/docs/">Documentation</a></li>
-              <li><a href="/team/">Team</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
+          <div class="col-md-12">
+            <h2>Why</h2>
+            <p>Lighthouse bridges the gap between providers hosting docker services. Are you running containers accross hundreds of vms accross the world wide web?  No problem, Lighthouse gives you the power to manage and maintain those vms with a few simple clicks. Everything was built with the goal of monotizing AWS, GCE, Azure, ect. into an easy to manage platform.</p>
+          </div>
+
+          <div class="col-md-12">
+            <h2>How</h2>
+            <p>Lighthouse is plutonium-powered time machine comprised of a DeLorean DMC-12 sports car that had to reach 88 miles per hour in order to time travel.  The flux capacitor requires 1.21 gigawatts of electrical power to operate, which is roughly equivalent to the power produced by 15 regular jet engines.</p>
+          </div>
+        </div>
       </div>
-
-      <div class="jumbotron">
-        <h1>Lighthouse</h1>
-        <p>Lighthouse is a Docker controller. It aggregates information about Docker instances arcoss 
-          mulitple cloud providers and allows for easy control over the containers deployed on that system. 
-          We're aiming to provide a service that is intuitive, fast, and secure.</p>
-        <p>Our minimal viable product is currently under development. Check back soon!</p>
-        <p><a class="btn btn-lg btn-primary" role="button">Learn more &raquo;</a></p>
-      </div>
-
-    </div> <!-- /container -->
-
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
