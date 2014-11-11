@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "0.10"
+
+branches:
+  only:
+    - master
+
+addons:
+  ssh_known_hosts:
+    - sdweb.ece.iastate.edu
+
+script:
+  - npm install -g bower
+  - ./scripts/build.sh
+
+after_success:
+  "find . -type f -not -path './node_modules/*' -not -path './bower_components/*' -not -path './.git/*' -exec curl -u $FTP_USER:$FTP_PASS --ftp-create-dirs -T {} sftp://sdweb.ece.iastate.edu/www/{} \;"
