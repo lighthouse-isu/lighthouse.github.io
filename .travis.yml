@@ -12,6 +12,7 @@ addons:
 
 script:
   - npm install -g bower
+  - bower install
   - ./tools/build.sh
 
 after_success:
