@@ -23,7 +23,10 @@ body {
 
 /* cool homepage stuff */
 .parallax-bg {
-    background: url(/static/img/670332.jpg) no-repeat center center fixed;
+    /* https://creativecommons.org/licenses/by-sa/2.0/ */
+    /* Dennis Jarvis */
+    /* https://www.flickr.com/photos/archer10/7866285556/in/photolist-cZ7LD3-aA6MMQ-6LRQMP-76m5SU-aHq37x-aA6B63-p1qdAf-78RnV-7JUzrh-afrk4g-aH8eqv-adp6LA-oLhz9H-ggyBoh-ds7aK8-9xv1re-aA3Tgc-4Km9hJ-aJwTiK-fxgCcF-55o3yC-2wyH8H-8b2dNK-tjBno-afu9aG-avp1Uc-8taYuw-7dcdZW-oKVZSi-aHq4dF-6XCAQH-8wDjnc-pEEoP4-agjJg-aS7ySp-fxu5Sy-5UH7dy-6mx3Ls-oQRCwx-o3XSr5-oWSXjU-ovrpUA-avkCfL-6ya81w-cfjVhQ-6yxcUR-4avgz2-5hiu3F-99AzLm-ox1ktM */
+    background: url(/static/img/lighthouse.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
