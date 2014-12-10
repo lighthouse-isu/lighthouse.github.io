@@ -14,6 +14,14 @@ body {
     margin-bottom: 0px;
 }
 
+.team {
+    padding: 20px;
+}
+
+.team img {
+    border: 5px solid black;
+}
+
 /* skinny container */
 @media (min-width: 768px) {
     .container {
